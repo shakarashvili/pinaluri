@@ -14,6 +14,7 @@ import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 
+
 @Listeners(org.example.Utils.TestLister.class)
 public class finaluriproeqti  {
 
@@ -21,7 +22,7 @@ public class finaluriproeqti  {
 
     @Test(retryAnalyzer = Retry.class)
     @Severity(SeverityLevel.BLOCKER)
-    @Description("შემყავს მონაცემები")
+    @Description("შემყავს მონაცემები და ვაგზავნი ესმესს")
 
     public void test1() {
 
@@ -50,6 +51,8 @@ public class finaluriproeqti  {
     }
 
     @Test
+    @Description("შემყავს ტექსტი და ვტვირთავ ფოტოს")
+    @Severity(SeverityLevel.BLOCKER)
     public void test2() {
 // გადავდივარ ჩემს პროფილზე და ედითში ვწერ ინფორმაციას
 // და ვცვლი ფოტოს
@@ -65,6 +68,8 @@ sleep(50000);
     }
 
     @Test
+    @Description("ვამოწმებ ფერებს და ფონტებს")
+    @Severity(SeverityLevel.NORMAL)
     public void test3() {
 // გადავდივარ მთავარ გვერდზე
 // და ვამოწმებ მარცხენა ზედა ჰოუმის ფერს , ნაწერის ზომას და მოკლედ სთაილებს .
