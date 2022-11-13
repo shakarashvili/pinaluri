@@ -1,22 +1,13 @@
 
-<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<!--<suite name="Automation Suite" thread-count="2" parallel="tests">-->
-<!--    <test name="LogIn" parallel="tests" >-->
-<!--        <classes>-->
-<!--            <class name="Login.FirstTest"/>-->
-<!--            <class name="Login.FirstTest"/>-->
-<!--            <class name="Login.FirstTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="LogIn" parallel="tests" >-->
-<!--        <classes>-->
-<!--            <class name="Login.FirstTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="LogIn" parallel="tests" >-->
-<!--        <classes>-->
-<!--            <class name="Login.FirstTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--</suite>-->
+<suite name="Automation Suite" thread-count="2" parallel="tests">
+    <test name="LogIn" parallel="tests" >
+        <classes>
+            <class name="finaluriproeqti"/>
+            <class name="finaluriproeqti2"/>
+
+        </classes>
+    </test>
+
+</suite>
